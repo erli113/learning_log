@@ -23,3 +23,4 @@ def topic(request,topic_id):
 
 def new_topic(request):
     """添加新主题"""
+    return render(request,'learning_logs/topic.html',context)
